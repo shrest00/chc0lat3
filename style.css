@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.chocolates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.chocolate-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    transition: background-color 0.3s;
+}
+
+.chocolate-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
